@@ -4,12 +4,12 @@ import subprocess
 def setup():
     print("==== Fantom Node Monitor Setup ====\n")
 
-    print("Create persistent volumes:")
+#    print("Create persistent volumes:")
 
-    command = "docker volume create prometheus-volume"
-    prometheus_volume_creation = subprocess.Popen(command.split())
+#    command = "docker volume create prometheus-volume"
+#    prometheus_volume_creation = subprocess.Popen(command.split())
 
-    prometheus_volume_creation.wait()
+#    prometheus_volume_creation.wait()
 
     print("Start container")
 
